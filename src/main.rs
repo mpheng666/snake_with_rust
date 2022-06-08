@@ -98,7 +98,7 @@ impl Snake  {
 				graphics::rectangle::square(
 					(x * WINDOWSGRIDCELLSIZE.height) as f64,
 					(y * WINDOWSGRIDCELLSIZE.width) as f64,
-					20_f64);
+					20_f64)
 			})
 			.collect();
 
